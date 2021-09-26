@@ -6,6 +6,7 @@ require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/cheggaaa/pb v1.0.29
 	github.com/coreos/go-systemd/v22 v22.3.2
+	github.com/decentralized-identity/go-ipfs-ds-azure v0.0.0-20210720170845-bae58935ec3d // indirect
 	github.com/dustin/go-humanize v1.0.0
 	github.com/elgris/jsondiff v0.0.0-20160530203242-765b5c24c302
 	github.com/fsnotify/fsnotify v1.4.9
