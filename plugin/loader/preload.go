@@ -1,6 +1,7 @@
 package loader
 
 import (
+	pluginazureds "github.com/decentralized-identity/go-ipfs-ds-azure/plugin"
 	pluginbadgerds "github.com/ipfs/go-ipfs/plugin/plugins/badgerds"
 	pluginflatfs "github.com/ipfs/go-ipfs/plugin/plugins/flatfs"
 	pluginipldgit "github.com/ipfs/go-ipfs/plugin/plugins/git"
@@ -18,4 +19,5 @@ func init() {
 	Preload(pluginflatfs.Plugins...)
 	Preload(pluginlevelds.Plugins...)
 	Preload(pluginpeerlog.Plugins...)
+	Preload(pluginazureds.Plugins[0])
 }
